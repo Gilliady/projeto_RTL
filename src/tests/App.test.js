@@ -1,7 +1,7 @@
 import { screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { act } from 'react-dom/test-utils';
-import renderWithRouter from './helpers/renderWithRouter';
+import renderWithRouter from '../renderWithRouter';
 import App from '../App';
 
 test('Testando o funcionamento do App.js, rotas: Home, About, Favorites e NotFound', () => {
